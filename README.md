@@ -14,7 +14,7 @@ Enchanted Words is a method that allows your brain to recognize the word complet
   <img src="https://github.com/serhatdog/enchanted-words/blob/main/example_output.png?raw=true" alt="Enchanted Words">
 </p>
 
-#How to create a pdf file like this?
+**How to create a pdf file like this?**
 
     import enchantedwords
     
