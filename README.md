@@ -9,12 +9,15 @@
 <h1 align="center">What is Enchanted Words?</h1>
 
 Enchanted Words is a method that allows your brain to recognize the word completely without reading it and thus read it faster by fading the words at a certain rate by processing on a string that you translated from a file or sent directly by yourself. The data is first saved as html, then converted to a pdf file and presented to the reader in the final. It is still in the development stage and there are many disadvantages, but I am thinking of improving it by adding performance improvements and different mathematical methods in the future.
+<hr>
+
+<p align="center"><b>Example Output</b><p>
 
 <p align="center">
   <img src="https://github.com/serhatdog/enchanted-words/blob/main/example_output.png?raw=true" alt="Enchanted Words">
 </p>
 
-**How to create a pdf file like this?**
+<p align="center"><b>How to create a pdf file like this?</b><p>
 
     import enchantedwords
     
@@ -24,4 +27,4 @@ Enchanted Words is a method that allows your brain to recognize the word complet
     
     enchantedwords.enchant(text, "Title")
     
-All done, you just create your first pdf with using this method!
+*All done, you just create your first pdf with using this method!*
