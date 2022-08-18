@@ -13,3 +13,15 @@ Enchanted Words is a method that allows your brain to recognize the word complet
 <p align="center">
   <img src="https://github.com/serhatdog/enchanted-words/blob/main/example_output.png?raw=true" alt="Enchanted Words">
 </p>
+
+#How to create a pdf file like this?
+
+    import enchantedwords
+    
+    text = open("your-text-file.txt", 'r', encoding = "utf-8").read()   #you can read text from the file
+    or
+    text = "Hello Github!"                                              #or you can just write by yourself
+    
+    enchantedwords.enchant(text, "Title")
+    
+All done, you just create your first pdf with using this method!
